@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+}
+
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  border: none;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.form-row:last-child {
+  margin-bottom: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+textarea {
+  min-width: 200px;
+  max-width: 600px;
+  min-height: 30px;
+  max-height: 100px;
+  resize: vertical;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
