@@ -1,0 +1,27 @@
+:root {
+  --font-family: "Satoshi", sans-serif;
+  --second-family: "FONTSPRING DEMO - Integral CF Heavy", sans-serif;
+  --third-family: "Integral CF", sans-serif;
+
+
+  /* colors */
+  --main-color: #000;
+  --accent-bg-color: #f0eeed;
+  --main-bg-color: #ffffff;
+  --bg-color: rgba(255, 51, 51, 0.1);
+  --color: #f33;
+  --accent-color: rgba(0, 0, 0, 0.6);
+  
+  /* container */
+  --container-width: 1440px;
+
+  /* transitions */
+  --transition-time: 0.2s;
+
+  /* layers */
+  --layer-negative: -1;
+  --layer-0: 0;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+}

@@ -1,0 +1,115 @@
+.brends {
+  max-width: var(--container-width);
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 40px 80px;
+  box-sizing: border-box;
+}
+
+.logos-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.logo-image {
+  display: block;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.versace {
+  width: 167px;
+  height: 34px;
+}
+.zara {
+  width: 91px;
+  height: 38px;
+}
+.gucci {
+  width: 156px;
+  height: 36px;
+}
+.prada {
+  width: 194px;
+  height: 32px;
+}
+.calvin-klein {
+  width: 207px;
+  height: 34px;
+}
+
+@media (max-width: 768px) {
+  .brends {
+    padding: 30px 20px;
+  }
+
+  .logos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .versace {
+    width: 100px;
+    height: 20px;
+  }
+  .zara {
+    width: 55px;
+    height: 23px;
+  }
+  .gucci {
+    width: 95px;
+    height: 22px;
+  }
+  .prada {
+    width: 110px;
+    height: 18px;
+  }
+  .calvin-klein {
+    width: 115px;
+    height: 19px;
+  }
+}
+
+@media (max-width: 448px) {
+  .brends {
+    padding: 25px 16px;
+  }
+
+  .logos-grid {
+    gap: 15px;
+  }
+
+  .versace {
+    width: 85px;
+    height: 17px;
+  }
+  .zara {
+    width: 45px;
+    height: 19px;
+  }
+  .gucci {
+    width: 80px;
+    height: 18px;
+  }
+  .prada {
+    width: 95px;
+    height: 15px;
+  }
+  .calvin-klein {
+    width: 100px;
+    height: 16px;
+  }
+}
